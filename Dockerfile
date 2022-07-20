@@ -80,6 +80,7 @@ RUN addgroup --system --gid ${FOUNDRY_UID} foundry \
   && apk --update --no-cache add \
   curl \
   jq \
+  rclone \
   sed \
   su-exec \
   tzdata \
